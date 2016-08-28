@@ -4,7 +4,7 @@ library(rvest)
 library(stringr)
 
 #  게시판 URL
-list.url = 'http://kin.naver.com/search/list.nhn?cs=utf8&query=강릉맛집'
+list.url = 'http://kin.naver.com/search/list.nhn?cs=utf8&query=강릉놀곳'
 
 # 제목과 본문을 저장할 벡터
 titles = c()
@@ -48,7 +48,7 @@ for(i in 1:100){
     
     contents = c(contents, content)
     
-    print(link)
+    #print(link)
     
   }
 }
@@ -56,6 +56,6 @@ for(i in 1:100){
 # 결과 저장
 #result = data.frame(titles, contents)
 #result
-sink("naver.txt")
+sink("naverJisikIn_강릉놀곳.txt")
 contents
 sink()
