@@ -113,3 +113,7 @@ $ hdfs dfs -text movie_result/part-00000 > popularMovie.csv
 ```
 
 ##### popularMovie.csv 를 확인해 보면 어떤 것이 인기가 있는지 확인할 수 있다.
+
+# 분석결과
+[대중에게 사랑받는 영화](https://github.com/googolhkl/dataAnalysis/blob/master/movie/popularMovie.pdf)
+
